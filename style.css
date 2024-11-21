@@ -1,0 +1,52 @@
+#heading{
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+#form-details{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 800px) {
+    #form-details{
+      margin: 3rem;
+      max-width: 100%;
+    }
+    #tableDiv {
+      margin: 1rem;
+    }
+  }
+
+.btn{
+    display: flex;
+flex-direction: column;
+width: 120px;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+#textarea{
+    margin-top: 10px;
+}
+
+
+#form-details, #countryLabel,#textLabel,#stateLabel{
+    color: blue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+input,textarea{
+    color: black;
+    border: 1px solid black;
+}
+
+h3{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
